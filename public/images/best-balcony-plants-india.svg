@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" fill="none">
+  <defs>
+    <linearGradient id="art1Bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ECFDF5"/>
+      <stop offset="100%" stop-color="#D1FAE5"/>
+    </linearGradient>
+    <linearGradient id="terracotta" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E07A5F"/>
+      <stop offset="100%" stop-color="#C0583E"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#art1Bg)"/>
+
+  <!-- Balcony shelf / stand with 4 featured plants -->
+  <!-- Background balcony wooden slat screen -->
+  <g stroke="#D1D5DB" stroke-width="6">
+    <line x1="100" y1="60" x2="100" y2="520"/>
+    <line x1="220" y1="60" x2="220" y2="520"/>
+    <line x1="340" y1="60" x2="340" y2="520"/>
+    <line x1="460" y1="60" x2="460" y2="520"/>
+    <line x1="580" y1="60" x2="580" y2="520"/>
+    <line x1="700" y1="60" x2="700" y2="520"/>
+    <line x1="820" y1="60" x2="820" y2="520"/>
+    <line x1="940" y1="60" x2="940" y2="520"/>
+    <line x1="1060" y1="60" x2="1060" y2="520"/>
+  </g>
+
+  <!-- Wooden Bench Table -->
+  <rect x="80" y="460" width="1040" height="30" rx="6" fill="#854D0E"/>
+  <rect x="140" y="490" width="24" height="150" fill="#713F12"/>
+  <rect x="1036" y="490" width="24" height="150" fill="#713F12"/>
+
+  <!-- Floor -->
+  <rect x="0" y="580" width="1200" height="95" fill="#E2E8F0"/>
+
+  <!-- Plant 1: Holy Basil / Tulsi (Sacred Indian herb) -->
+  <g transform="translate(180, 240)">
+    <!-- Tulsi purple-tipped flower spikes and dense aromatic leaves -->
+    <circle cx="80" cy="110" r="70" fill="#15803D"/>
+    <circle cx="60" cy="80" r="50" fill="#166534"/>
+    <circle cx="100" cy="70" r="55" fill="#22C55E"/>
+    <circle cx="80" cy="40" r="45" fill="#15803D"/>
+    <!-- Inflorescences (manjari) -->
+    <path d="M75 30 L75 5 M80 30 L80 -5 M85 30 L85 5" stroke="#7E22CE" stroke-width="4" stroke-linecap="round"/>
+    <path d="M55 60 L50 40 M105 60 L110 40" stroke="#7E22CE" stroke-width="3" stroke-linecap="round"/>
+    <!-- Traditional Indian carved terracotta pot -->
+    <path d="M30 180 L45 250 Q80 260 115 250 L130 180 Z" fill="url(#terracotta)"/>
+    <ellipse cx="80" cy="180" rx="50" ry="10" fill="#B45309"/>
+    <!-- Tulsi nametag -->
+    <rect x="40" y="270" width="80" height="24" rx="4" fill="#FEF3C7" stroke="#D97706"/>
+    <text x="80" y="286" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#92400E" text-anchor="middle">Tulsi (Basil)</text>
+  </g>
+
+  <!-- Plant 2: Money Plant (Golden Pothos) on Moss Stick -->
+  <g transform="translate(420, 160)">
+    <!-- Moss pole -->
+    <rect x="75" y="60" width="14" height="230" rx="7" fill="#78350F"/>
+    <!-- Heart-shaped variegated leaves climbing up -->
+    <path d="M82 250 C40 220 30 190 70 180 C110 170 120 220 82 250 Z" fill="#22C55E"/>
+    <path d="M82 200 C130 170 140 130 95 120 C50 110 50 160 82 200 Z" fill="#16A34A"/>
+    <path d="M82 140 C30 110 40 70 80 60 C120 50 130 100 82 140 Z" fill="#4ADE80"/>
+    <path d="M82 90 C120 60 110 20 80 10 C50 10 50 50 82 90 Z" fill="#22C55E"/>
+    <!-- Yellow variegation patches -->
+    <path d="M72 170 Q60 185 75 190" stroke="#FDE047" stroke-width="4" stroke-linecap="round"/>
+    <path d="M95 115 Q105 130 90 135" stroke="#FDE047" stroke-width="4" stroke-linecap="round"/>
+    <!-- Ceramic Glazed Pot -->
+    <path d="M30 260 L45 330 Q82 340 119 330 L134 260 Z" fill="#0D9488"/>
+    <ellipse cx="82" cy="260" rx="52" ry="10" fill="#115E59"/>
+    <!-- Money plant tag -->
+    <rect x="37" y="350" width="90" height="24" rx="4" fill="#CCFBF1" stroke="#0F766E"/>
+    <text x="82" y="366" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#134E4A" text-anchor="middle">Money Plant</text>
+  </g>
+
+  <!-- Plant 3: Fragrant Mogra / Jasmine -->
+  <g transform="translate(670, 220)">
+    <!-- Bushy green foliage with white starry buds -->
+    <circle cx="80" cy="110" r="65" fill="#166534"/>
+    <circle cx="50" cy="80" r="50" fill="#15803D"/>
+    <circle cx="110" cy="90" r="50" fill="#10B981"/>
+    <!-- Starry white Mogra blossoms -->
+    <g fill="#FFFFFF" stroke="#FEF08A" stroke-width="1.5">
+      <circle cx="50" cy="65" r="9"/>
+      <circle cx="75" cy="50" r="10"/>
+      <circle cx="105" cy="70" r="9"/>
+      <circle cx="120" cy="100" r="8"/>
+      <circle cx="40" cy="105" r="8"/>
+      <circle cx="85" cy="95" r="11"/>
+    </g>
+    <!-- Pot -->
+    <path d="M30 200 L45 270 Q80 280 115 270 L130 200 Z" fill="url(#terracotta)"/>
+    <ellipse cx="80" cy="200" rx="50" ry="10" fill="#9A3412"/>
+    <!-- Tag -->
+    <rect x="35" y="290" width="90" height="24" rx="4" fill="#FEF3C7" stroke="#D97706"/>
+    <text x="80" y="306" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#92400E" text-anchor="middle">Mogra (Jasmine)</text>
+  </g>
+
+  <!-- Plant 4: Snake Plant / Sansevieria (Hardy Air Purifier) -->
+  <g transform="translate(900, 190)">
+    <path d="M70 230 Q50 90 40 20 Q60 80 75 230" fill="#047857"/>
+    <path d="M48 30 Q55 90 65 230" stroke="#FACC15" stroke-width="3" fill="none"/>
+    <path d="M85 230 Q100 80 115 0 Q105 70 90 230" fill="#065F46"/>
+    <path d="M110 10 Q100 80 92 230" stroke="#FACC15" stroke-width="3" fill="none"/>
+    <path d="M60 230 Q30 110 20 60 Q45 100 65 230" fill="#059669"/>
+    <!-- Grey minimalist pot -->
+    <path d="M30 230 L45 300 Q80 310 115 300 L130 230 Z" fill="#475569"/>
+    <ellipse cx="80" cy="230" rx="50" ry="9" fill="#334155"/>
+    <!-- Tag -->
+    <rect x="35" y="320" width="90" height="24" rx="4" fill="#F1F5F9" stroke="#64748B"/>
+    <text x="80" y="336" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#334155" text-anchor="middle">Snake Plant</text>
+  </g>
+
+  <!-- Overlay Header Badge -->
+  <rect x="50" y="40" width="560" height="90" rx="12" fill="#FFFFFF" fill-opacity="0.95" stroke="#059669" stroke-width="2"/>
+  <text x="75" y="80" font-family="system-ui, sans-serif" font-size="24" font-weight="800" fill="#065F46">Best Balcony Plants India Guide</text>
+  <text x="75" y="108" font-family="system-ui, sans-serif" font-size="15" fill="#047857">10 Proven Picks for Low Maintenance, Sunlight &amp; Indian Summers</text>
+</svg>

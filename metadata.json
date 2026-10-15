@@ -1,0 +1,8 @@
+{
+  "name": "GreenNest - Balcony Gardening for Indian Homes",
+  "description": "Clean, practical balcony gardening guide for small Indian apartments, featuring plant picks, setup tutorials, and vacation watering hacks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

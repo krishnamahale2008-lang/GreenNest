@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" fill="none">
+  <defs>
+    <linearGradient id="waterBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2FE"/>
+      <stop offset="50%" stop-color="#F0FDF4"/>
+      <stop offset="100%" stop-color="#DCFCE7"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#waterBg)"/>
+
+  <!-- Balcony Floor -->
+  <path d="M0 450 L1200 450 L1200 675 L0 675 Z" fill="#E2E8F0"/>
+  <line x1="0" y1="450" x2="1200" y2="450" stroke="#CBD5E1" stroke-width="4"/>
+
+  <!-- Centerpiece 1: Cotton Wick Capillary System -->
+  <g transform="translate(100, 160)">
+    <!-- Elevated Water Bucket / Pitcher -->
+    <rect x="180" y="80" width="130" height="180" rx="10" fill="#BAE6FD" stroke="#0284C7" stroke-width="3"/>
+    <rect x="190" y="100" width="110" height="150" rx="6" fill="url(#waterGrad)" opacity="0.8"/>
+    <!-- Water level wave -->
+    <path d="M190 120 Q215 110 245 120 T300 120" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+    <text x="245" y="170" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Water Reservoir</text>
+
+    <!-- Cotton Wick Cord leading to pot 1 (Left) -->
+    <path d="M230 140 C170 120 120 170 95 240" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+    <path d="M230 140 C170 120 120 170 95 240" fill="none" stroke="#0284C7" stroke-width="4" stroke-dasharray="8 6"/>
+
+    <!-- Potted Plant on left -->
+    <path d="M50 220 L65 310 Q95 320 125 310 L140 220 Z" fill="#C0583E"/>
+    <ellipse cx="95" cy="220" rx="45" ry="9" fill="#9A3412"/>
+    <circle cx="95" cy="180" r="35" fill="#22C55E"/>
+    <circle cx="80" cy="150" r="30" fill="#15803D"/>
+    <circle cx="115" cy="160" r="28" fill="#16A34A"/>
+
+    <!-- Label -->
+    <rect x="60" y="340" width="260" height="32" rx="6" fill="#FFFFFF" stroke="#0284C7"/>
+    <text x="190" y="361" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#0369A1" text-anchor="middle">1. Elevated Cotton Wick System</text>
+  </g>
+
+  <!-- Centerpiece 2: Inverted Water Bottle Drip Method -->
+  <g transform="translate(520, 160)">
+    <!-- Potted plant -->
+    <path d="M70 220 L85 310 Q125 320 165 310 L180 220 Z" fill="#D97706"/>
+    <ellipse cx="125" cy="220" rx="55" ry="10" fill="#9A3412"/>
+    <circle cx="125" cy="170" r="45" fill="#16A34A"/>
+    <circle cx="150" cy="140" r="35" fill="#22C55E"/>
+    <circle cx="95" cy="150" r="35" fill="#15803D"/>
+
+    <!-- Inverted PET water bottle inserted into soil -->
+    <path d="M110 80 L140 80 L140 170 L132 195 L118 195 L110 170 Z" fill="#BAE6FD" stroke="#0284C7" stroke-width="2"/>
+    <rect x="113" y="85" width="24" height="75" fill="url(#waterGrad)" opacity="0.8"/>
+    <!-- Tiny slow drip drops -->
+    <circle cx="125" cy="205" r="3" fill="#0284C7"/>
+    <circle cx="125" cy="215" r="2" fill="#0284C7"/>
+
+    <!-- Label -->
+    <rect x="40" y="340" width="220" height="32" rx="6" fill="#FFFFFF" stroke="#D97706"/>
+    <text x="150" y="361" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#B45309" text-anchor="middle">2. Slow Bottle Inversion Drip</text>
+  </g>
+
+  <!-- Centerpiece 3: Grouped Plants on Pebble Humidifier Tray -->
+  <g transform="translate(840, 200)">
+    <!-- Deep Tray with Pebbles and shallow water -->
+    <rect x="20" y="240" width="260" height="40" rx="6" fill="#64748B"/>
+    <!-- Pebbles inside tray -->
+    <ellipse cx="40" cy="255" rx="12" ry="6" fill="#94A3B8"/>
+    <ellipse cx="70" cy="255" rx="10" ry="7" fill="#CBD5E1"/>
+    <ellipse cx="100" cy="255" rx="14" ry="6" fill="#94A3B8"/>
+    <ellipse cx="130" cy="255" rx="11" ry="7" fill="#E2E8F0"/>
+    <ellipse cx="160" cy="255" rx="13" ry="6" fill="#94A3B8"/>
+    <ellipse cx="190" cy="255" rx="10" ry="7" fill="#CBD5E1"/>
+    <ellipse cx="220" cy="255" rx="12" ry="6" fill="#94A3B8"/>
+    <ellipse cx="250" cy="255" rx="11" ry="6" fill="#E2E8F0"/>
+
+    <!-- 3 small pots grouped together -->
+    <path d="M45 170 L55 240 Q75 246 95 240 L105 170 Z" fill="#C0583E"/>
+    <circle cx="75" cy="140" r="25" fill="#22C55E"/>
+
+    <path d="M120 160 L130 240 Q150 246 170 240 L180 160 Z" fill="#059669"/>
+    <circle cx="150" cy="130" r="30" fill="#10B981"/>
+
+    <path d="M195 175 L205 240 Q225 246 245 240 L255 175 Z" fill="#D97706"/>
+    <circle cx="225" cy="145" r="22" fill="#16A34A"/>
+
+    <!-- Label -->
+    <rect x="20" y="300" width="260" height="32" rx="6" fill="#FFFFFF" stroke="#059669"/>
+    <text x="150" y="321" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#065F46" text-anchor="middle">3. Microclimate Grouping Tray</text>
+  </g>
+
+  <!-- Header Banner -->
+  <rect x="50" y="40" width="600" height="90" rx="12" fill="#FFFFFF" fill-opacity="0.95" stroke="#0284C7" stroke-width="2"/>
+  <text x="75" y="80" font-family="system-ui, sans-serif" font-size="24" font-weight="800" fill="#0369A1">Keep Plants Alive on Vacation</text>
+  <text x="75" y="108" font-family="system-ui, sans-serif" font-size="15" fill="#0284C7">5 Simple DIY &amp; Self-Watering Systems for Indian Summer Holidays</text>
+</svg>
